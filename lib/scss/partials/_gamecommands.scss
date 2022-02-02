@@ -1,0 +1,110 @@
+// All the buttons on the bottom of the game page
+
+input.primary, button.primary {
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #18453B;
+    border: thick solid black;
+    width: 7.5em;
+    margin: 0 0.25em 0.25em 0.25em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+input.primary:hover, button.primary:hover {
+    background-color: #12342C;
+}
+
+input.primary:active, button.primary:active {
+    background-color: #18453B;
+}
+
+input.primary-closed, button.primary-closed,
+input.primary:disabled, button.primary:disabled,
+input.primary:hover:disabled, button.primary:hover:disabled,
+input.primary:active:disabled, button.primary:active:disabled{
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #807c7c;
+    border: thick solid black;
+    width: 7.5em;
+    margin: 0 0.25em 0.25em 0.25em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+input.primary-sm, button.primary-sm {
+    width: 5.5em;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0.25em 0 0.25em 0;
+    border: thick solid black;
+}
+
+div.buttonBox {
+    margin-top: 0.25em;
+    display: flex;
+    justify-content: center;
+}
+
+.gap {
+    margin-top: 4em;
+}
+
+.gap-sm {
+    margin-top: 2em;
+}
+
+.gap-xs {
+    margin-top: 0.5em;
+}
+
+.gap-bot-sm {
+    margin-bottom: 2em;
+}
+
+.gap-bot-xs {
+    margin-bottom: 0.5em;
+}
+
+p.message {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    color: #18453B;
+    background-color: white;
+    font-weight: bold;
+    margin: 0 0.25em 0.25em 0.25em;
+    padding: 0.25em 0 0.25em 0;
+    border: thick solid black;
+}
+
+button.kickButton {
+    color: red;
+    background-color: Transparent;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+button.kickButton:hover {
+    color: white;
+    background-color: red;
+    border: none
+}
+
+button.kickButton:active {
+    color: white;
+    background-color: darkred;
+}
+
+button.kickButton-closed, button.kickButton-closed:disabled {
+    color: gray;
+    background-color: Transparent;
+    border: none;
+    border-radius: 25%;
+}
+

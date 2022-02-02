@@ -1,0 +1,189 @@
+div.game {
+    display: inline-block;
+    position: relative;
+    width: 96vw;
+    height: 96vw;
+    max-width: 650px;
+    max-height: 650px;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+    background-image: url('../images/sorryboard.png');
+    background-size: 100% 100%;
+}
+
+div.game > div.board {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.game div.row {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0;
+    width: 100%;
+    height: 6.25%;
+    min-height: 6.25%;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+div.game div.cell {
+    flex: 1 0 6.25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*border: 1px solid orange;*/
+}
+
+div.cell button {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.highlighted {
+    z-index: 2;
+    position: relative;
+    background-color: $highlight;
+}
+
+.selected  {
+    background-color: $selected;
+}
+
+.notClickable {
+    width:100%;
+    height: 100%;
+    margin:auto;
+    background-color: #00000000;
+}
+
+.YellowPiece{
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/yellow.png');
+}
+
+.RedPiece {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/red.png');
+}
+
+.BluePiece {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/blue.png');
+}
+
+.GreenPiece {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/green.png');
+}
+
+.deckImage {
+    display: inline-block;
+    vertical-align: top;
+    z-index: 1;
+    position: relative;
+    width: 300%;
+    height: 400%;
+    /*size: auto;*/
+    /*margin: auto;*/
+    /*height: auto;*/
+    /*width: auto\9;*/
+
+}
+
+.cardSource {
+    margin-left: -300%;
+}
+
+.discard {
+    width: 100%;
+    height: 100%;
+}
+
+/*img.player-piece {*/
+/*    width:100%;*/
+/*    height: 100%;*/
+/*    margin:auto;*/
+/*}*/
+
+.limit {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 350px;
+}
+
+.Yellow {
+    color: $yellow;
+    text-align: center;
+}
+
+.Green {
+    color: $green;
+    text-align: center;
+}
+
+.Red {
+    color: $red;
+    text-align: center;
+}
+
+.Blue {
+    color: $blue;
+    text-align: center;
+}
+
+p.Black {
+    color: black;
+    text-align: center;
+}
+
+div.playerList {
+    background-color: $darkgreen;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    width: 650px;
+    margin: auto 0.25em;
+    display: inline-block;
+    position: relative;
+}
+
+div.playerList p.title {
+    color: lightgrey;
+    background-color: #212121;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p.playerListEntry {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    width: 100%;
+    border: thin solid #0e2923;
+    padding: 0.25em 0.5em;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+div.playerList div.row {
+    display: flex;
+}

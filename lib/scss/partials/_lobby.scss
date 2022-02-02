@@ -1,0 +1,184 @@
+//form {
+//    display: block;
+//    text-align: center;
+//}
+
+div.twoboxes {
+    display: flex;
+    height: auto;
+}
+
+div.colorOptions {
+    flex: 1;
+    justify-content: right;
+    text-align: right;
+}
+
+div.showPlayers{
+    flex: 1;
+    //display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+
+div.contentTitle {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    font-family: "Arial", serif;
+}
+
+p.selectMessage {
+    margin-top: 1em;
+    font-family: "Arial", serif;
+    font-weight: 500;
+}
+
+p.team, div.showPlayers{
+    font-family: "Arial", serif;
+    font-size: 1.75em;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+
+.showPlayers p {
+    padding: 0.25em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+p.team label {
+    padding-left: 0.25em;
+}
+
+.colorOptions {
+    display: inline-block;
+}
+
+.colorOptions p{
+    padding: 0.25em;
+}
+
+.colorOptions input{
+
+    width: 5em;
+}
+
+.LobbyYellow-closed, .LobbyGreen-closed, .LobbyRed-closed, .LobbyBlue-closed{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.LobbyYellow-invert, .LobbyGreen-invert, .LobbyRed-invert, .LobbyBlue-invert{
+    text-align: center;
+}
+
+.LobbyYellow-invert {
+    color: white;
+    background-color: $yellow;
+}
+
+.LobbyGreen-invert {
+    color: white;
+    background-color: $green;
+}
+
+.LobbyRed-invert {
+    color: white;
+    background-color: $red;
+}
+
+.LobbyBlue-invert {
+    color: white;
+    background-color: $blue;
+}
+
+.LobbyYellow {
+    background-color: white;
+    color: $yellow;
+    text-align: center;
+}
+
+.LobbyGreen {
+    background-color: white;
+    color: $green;
+    text-align: center;
+}
+
+.LobbyRed {
+    background-color: white;
+    color: $red;
+    text-align: center;
+}
+
+.LobbyBlue {
+    background-color: white;
+    color: $blue;
+    text-align: center;
+}
+
+.colorOptions input[value]{
+    -webkit-text-stroke: 1px black;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+h2.biggerH2 {
+    font-size: 1.5em;
+}
+
+label.labelFancy {
+    font-family: "Arial", serif;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+input.inputFancy {
+    padding:5px; border:2px solid black;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input.inputFancy:focus {
+    outline: none;
+    border:2px solid $darkgreen;
+    box-shadow: 0 0 5px $darkgreen;
+}
+
+input.extend {
+    min-width: 12.7em;
+}
+
+p.selectMessage {
+    padding-bottom: .25em;
+}
+
+.YellowPlayer {
+    color: $yellow;
+}
+
+.GreenPlayer {
+    color: $green;
+}
+
+.RedPlayer {
+    color: $red;
+}
+
+.BluePlayer {
+    color: $blue;
+}
+
+.teamlessPlayer {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,12 @@
+div.gameover img {
+    border: thick solid black;
+    display: block;
+    margin: .5em auto 1em auto;
+    width: 75%;
+}
+
+title.YellowPlayer, title.GreenPlayer, title.RedPlayer, title.BluePlayer {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}

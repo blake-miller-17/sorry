@@ -1,0 +1,124 @@
+div.game-selection {
+
+}
+
+table {
+  table-layout: fixed;
+  white-space: nowrap;
+  //background: ;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex: auto;
+  //float: left;
+  border: 2px solid black;
+}
+div.content {
+  align-items: center;
+  justify-content: center;
+}
+
+div.lobby {
+  margin: 0 auto;
+  height: 1em;
+  justify-content: center;
+}
+
+div.game-cell {
+  background-color: $bone;
+  border: 2px solid black;
+  margin: 1em auto;
+  top: 0;
+  width: 85%;
+  //height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  //align-items: center;
+}
+
+p.none {
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
+
+div.text {
+  position: relative;
+  left: 3em;
+  top: .25em;
+}
+
+div.button {
+
+  margin: .25em;
+  //border-right: 1px solid black;
+  float: left;
+}
+
+div.lobby-button {
+  position: relative;
+  width: 5em;
+  right: 5em;
+  bottom: 2.5em;
+  margin: 1em auto;
+}
+
+div.players {
+  margin-top: 1.35em;
+  width: 7em;
+  right: 8em;
+  position: relative;
+  //text-align: left;
+  //float: left;
+}
+
+div.game-type {
+  margin-top: 1.35em;
+  position: relative;
+  width: 5em;
+  right: 6em;
+}
+
+p.lobby {
+  font-size: 1em;
+  right: 8.5em;
+  position: absolute;
+  margin: 0 0 .5em 0;
+  font-weight: bold;
+  width: 10em;
+  text-align: center;
+  //text-decoration: underline;
+}
+
+p.left {
+
+  display: inline;
+  float: left;
+}
+
+p.games-button {
+  overflow: hidden;
+  //width: 100%;
+  //margin: -1em -3em .25em -.25em;
+
+
+}
+
+tbody, tr, td, th {
+  overflow: hidden;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+fieldset.create {
+  max-height: 5em;
+  height: auto;
+}
+
+fieldset {
+  height: 80%;
+  width:60%;
+  margin: auto auto 1em auto;
+}

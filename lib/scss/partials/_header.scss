@@ -1,0 +1,26 @@
+header.sorryHeader {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: $darkgreen;
+    border-bottom: thick solid black;
+    padding: 1em;
+}
+
+header.sorryHeader figure {
+    height: 3.5em;
+    width: auto;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+header.sorryHeader figure img {
+    max-height: 100%;
+    width: auto;
+}
+
+header.sorryHeader h1 {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 0.25em;
+    vertical-align: bottom;
+}

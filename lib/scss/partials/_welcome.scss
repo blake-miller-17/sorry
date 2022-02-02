@@ -1,0 +1,84 @@
+form {
+    display: block;
+    text-align: center;
+}
+
+div.welcomePage {
+    position: relative;
+    background: url('../images/welcomePage.png') no-repeat center center;
+    background-size: 1000px;
+    margin: 0;
+    padding-top: 1px;
+}
+
+div.teamSelect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contentTitle {
+    text-align: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-family: "Arial", serif;
+}
+
+p.selectMessage {
+    margin-top: 1em;
+    font-family: "Arial", serif;
+    font-weight: 500;
+}
+
+p.team {
+    font-family: "Arial", serif;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+
+p.team label {
+    padding-left: 0.25em;
+}
+
+.options {
+    display: inline-block;
+    text-align: left;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+h2.biggerH2 {
+    font-size: 1.5em;
+}
+
+label.labelFancy {
+    font-family: "Arial", serif;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+input.inputFancy {
+    padding:5px; border:2px solid black;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input.inputFancy:focus {
+    outline: none;
+    border:2px solid $darkgreen;
+    box-shadow: 0 0 5px $darkgreen;
+}
+
+input.extend {
+    min-width: 12.7em;
+}
+
+p.warningMsg {
+    color: red;
+}
