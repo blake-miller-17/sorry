@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {"Sorry\\": "lib/Sorry"}
+  },
+  "require": {
+    "phpunit/phpunit": "6",
+    "ext-json": "*",
+    "ext-sockets": "*"
+  }
+}
